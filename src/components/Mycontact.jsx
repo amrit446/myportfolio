@@ -43,7 +43,7 @@ const Contact = () => {
           <a
             href="/resume.pdf" // put resume.pdf inside public/ folder
             download
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary hover:bg-blue-600 transition"
+            className="bg-tertiary py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary hover:bg-blue-800 transition"
           >
             Download Resume
           </a>

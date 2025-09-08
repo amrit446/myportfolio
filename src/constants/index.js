@@ -270,7 +270,7 @@ const projects = [
   {
     name: "Chat application",
     description:
-      "Fashion Mart is your one-stop online store for premium watches, offering a seamless shopping experience with advanced filtering, secure payments, and a modern responsive",
+"Chat App is a real-time messaging platform offering features like instant messaging, group chats, and a modern responsive UI for smooth user experience.",
     tags: [
       {
         name: "react",
