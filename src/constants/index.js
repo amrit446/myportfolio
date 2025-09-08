@@ -16,7 +16,6 @@ import {
   express,
   aws,
   mui,
-  
   gsap,
   framer,
   figma,
@@ -32,11 +31,20 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
-} from '../assets'
+  python,
+  django,
+  angular,
+  postgres
+} from '../assets';
+
+
 
 
 // Import Tekisky separately
 import tekisky from "../assets/company/tekisky.png";
+
+import project1 from "../assets/project1.png";
+
 
 
 export const navLinks = [
@@ -59,19 +67,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "Fullstack Development",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Frontend Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Backend Development",
+    icon: mobile,
   },
   {
-    title: "Ui UX Designer",
+    title: "Testing",
     icon: creator,
   },
 ];
@@ -93,24 +101,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
 
- 
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
   {
     name: "Redux Toolkit",
     icon: redux,
@@ -143,29 +134,83 @@ const technologies = [
     name: "MySql",
     icon: mysql,
   },
-
+{
+    name: "postgres",
+    icon: postgres,
+  },
+  
   {
     name: "git",
     icon: git,
   },
  
-
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name:"django",
+    icon:django
+  },
+   {
+    name:"angular",
+    icon:angular
+  }
 ];
 
 const experiences = [
-  {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
-    iconBg: "#383E56",
-    date: "Jan 2023 - present",
-    points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+{
+  title: "Associate Consultant",
+  company_name: "KPMG India",
+  icon: tekisky,
+  iconBg: "#383E56",
+  date: "Jan 2025 - Apr 2025",
+  points: [
+    "Contributed to the AI Marketplace project using React, HTML, CSS, JavaScript, Django, and Python.",
+    "Designed and developed the dashboard for seamless user interaction.",
+    "Implemented secure user authentication by building APIs for signup and login.",
+    "Collaborated with cross-functional teams to deliver high-quality solutions."
+  ],
+},
+{
+  title: "Full Stack Developer",
+  company_name: "Xotiv Technologies",
+  icon: tekisky,
+  iconBg: "#383E56",
+  date: "Oct 2023 - Feb 2024",
+  points: [
+    "Developed APIs with Python, Django REST Framework, and Node.js to assign areas, facilities, and organizations to workers.",
+    "Implemented role-based authentication ensuring secure access.",
+    "Created dynamic dashboards using Angular, HTML, and CSS.",
+    "Optimized server architecture and data handling with MySQL for efficient performance."
+  ],
+},
+{
+  title: "Full Stack Developer",
+  company_name: "Edge Corporation",
+  icon: tekisky,
+  iconBg: "#383E56",
+  date: "Sep 2022 - May 2023",
+  points: [
+    "Built backend services with Node.js, Express, and MongoDB using RESTful web APIs.",
+    "Developed dynamic product and service pages with React, Redux, TypeScript, HTML5, and CSS3.",
+    "Created APIs for product management and filtering by category, price, and keywords.",
+    "Implemented unit testing with Jest to ensure reliability and maintainability of code."
+  ],
+},
+{
+  title: "Associate Software Engineer",
+  company_name: "Mindfire Solutions",
+  icon: tekisky,
+  iconBg: "#383E56",
+  date: "Aug 2021 - Jul 2022",
+  points: [
+    "Developed vaccination assignment system using Python, Django, and PostgreSQL.",
+    "Implemented user authentication and APIs for child registration and vaccination management.",
+    "Built an admin dashboard with React, HTML, CSS, and JavaScript to streamline data handling.",
+    "Collaborated with teams to improve user experience and system scalability."
+  ],
+},
 ];
 
 const testimonials = [
@@ -197,16 +242,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Fashion Mart",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Fashion Mart is your one-stop online store for premium watches, offering a seamless shopping experience with advanced filtering, secure payments, and a modern responsive",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "white-text-gradient",
       },
       {
@@ -219,55 +264,31 @@ const projects = [
       },
  
     ],
-    image: project2,
-    source_code_link: "https://github.com/",
+    image: project1,
+    source_code_link: "https://github.com/amrit446/FashionMart",
   },
   {
-    name: "GearXpert",
+    name: "Chat application",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "Fashion Mart is your one-stop online store for premium watches, offering a seamless shopping experience with advanced filtering, secure payments, and a modern responsive",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "Gsap",
+        name: "mysql",
         color: "pink-text-gradient",
       },
     ],
     image: gearXpert,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/amrit446/chatapp",
   },
-  {
-    name: "GoGroove-Ecommerce",
-    description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-    ],
-    image: project3,
-    source_code_link: "https://github.com/",
-  },
+ 
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, project1 };

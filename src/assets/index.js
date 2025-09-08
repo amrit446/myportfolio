@@ -24,11 +24,16 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import python from "./tech/python.png";
+import django from "./tech/django.png"
 import tailwind from "./tech/tailwind.png";
+import postgres from "./tech/postgres.png";
 import threejs from "./tech/threejs.svg";
 import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp'
+import angular from "./tech/angular.png";
+import project1 from "./project1.png"
 
 export {
   logo,
@@ -37,6 +42,7 @@ export {
   mobile,
   web,
   github,
+  postgres,
   menu,
   close,
   css,
@@ -62,5 +68,8 @@ export {
   redux,
   tailwind,
   threejs,
+  python,
+  django,
+  angular
 
 };

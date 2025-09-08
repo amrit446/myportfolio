@@ -71,10 +71,8 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </div>
 
-      <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in  JavaScript, and expertise in frameworks 
-        like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, 
-        scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+      <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">I’m Skilled Developer, a passionate Full Stack Developer with strong expertise in JavaScript, React, Node.js, and Python. I enjoy building scalable, user-friendly applications and thrive on solving real-world problems through clean and efficient code. With a quick learning mindset and collaborative approach, 
+        I aim to deliver impactful digital solutions that bring ideas to life
       </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">
