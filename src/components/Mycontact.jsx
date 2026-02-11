@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import { Link } from 'react-router-dom';
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -34,7 +34,7 @@ const Contact = () => {
           </div>
           <div>
             <p className="font-medium">LinkedIn</p>
-            <p>linkedin.com/in/amritbharti</p>
+            <Link to="https://www.linkedin.com/in/amrit-bharti-0ba4bb156/">linkedin.com/in/amrit-bharti-0ba4bb156</Link >
           </div>
         </div>
 
